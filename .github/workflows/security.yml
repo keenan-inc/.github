@@ -1,0 +1,40 @@
+name: security
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  secret-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+      - name: TruffleHog (full git history)
+        run: |
+          docker run --rm -v "$PWD:/repo" trufflesecurity/trufflehog:3.96.0 \
+            git file:///repo --fail --no-update --results=verified,unknown
+
+  dependency-audit:
+    runs-on: ubuntu-latest
+    steps:
+      # This repo ships org-profile assets, labels.yml, a Renovate preset, and
+      # docs — there are no dependency manifests (no package.json, no
+      # requirements.txt, etc.) to audit. This job still exists, as a no-op,
+      # because the org ruleset requires the `dependency-audit` status check
+      # as a required context on every repo's PRs into main, including this
+      # one. Keeping the job (rather than omitting it) keeps the required
+      # check green instead of permanently missing/pending.
+      - name: No dependency manifests in this repo
+        run: |
+          echo "No dependency manifests in this repo (no package.json, requirements.txt, etc.)."
+          echo "This job is a required no-op to satisfy the org-wide dependency-audit status check."
+          exit 0
