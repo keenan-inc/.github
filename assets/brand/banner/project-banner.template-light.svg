@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="{{PROJECT_NAME}}">
+<rect width="1280" height="320" fill="#FFFFFF"></rect>
+<rect y="318" width="1280" height="2" fill="#0F6E63" opacity=".9"></rect>
+<text x="96" y="150" font-family="-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif" font-size="60" font-weight="500" letter-spacing="-1.4" fill="#14181D">{{PROJECT_NAME}}</text>
+<text x="96" y="192" font-family="ui-monospace,SFMono-Regular,&#39;SF Mono&#39;,Menlo,Consolas,&#39;Liberation Mono&#39;,monospace" font-size="14" letter-spacing="2.4" fill="#5B6570">{{ONE_LINER}}</text>
+<g transform="translate(1096,236) scale(0.5)"><rect x="19" y="16" width="6" height="32" fill="#14181D"></rect><path d="M46 17 L25 32 L46 47" fill="none" stroke="#0F6E63" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path></g>
+<text x="1132" y="262" font-family="-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif" font-size="17" font-weight="500" fill="#5B6570">keenan<tspan fill="#0F6E63">-</tspan>inc</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="{{PROJECT_NAME}}">
+<rect width="1280" height="640" fill="#0D1117"></rect>
+<rect y="636" width="1280" height="4" fill="#2FA694"></rect>
+<g transform="translate(112,96)"><rect x="19" y="16" width="6" height="32" fill="#F0F3F6"></rect><path d="M46 17 L25 32 L46 47" fill="none" stroke="#2FA694" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path></g>
+<text x="192" y="140" font-family="-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif" font-size="26" font-weight="500" fill="#8B949E">keenan<tspan fill="#2FA694">-</tspan>inc</text>
+<text x="112" y="352" font-family="-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif" font-size="88" font-weight="500" letter-spacing="-2.4" fill="#F0F3F6">{{PROJECT_NAME}}</text>
+<text x="112" y="404" font-family="ui-monospace,SFMono-Regular,&#39;SF Mono&#39;,Menlo,Consolas,&#39;Liberation Mono&#39;,monospace" font-size="20" letter-spacing="1.6" fill="#8B949E">{{ONE_LINER}}</text>
+<rect x="112" y="460" width="120" height="1" fill="#30363D"></rect>
+<text x="112" y="520" font-family="ui-monospace,SFMono-Regular,&#39;SF Mono&#39;,Menlo,Consolas,&#39;Liberation Mono&#39;,monospace" font-size="14" letter-spacing="2.6" fill="#8B949E">{{TECH}} · GITHUB.COM/KEENAN-INC/{{REPO}}</text>
+</svg>

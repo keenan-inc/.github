@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="keenan-inc">
+<rect width="1280" height="640" fill="#0D1117"></rect>
+<rect y="636" width="1280" height="4" fill="#2FA694"></rect>
+<g transform="translate(112,150) scale(1.25)"><rect x="19" y="16" width="6" height="32" fill="#F0F3F6"></rect><path d="M46 17 L25 32 L46 47" fill="none" stroke="#2FA694" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path></g>
+<text x="112" y="330" font-family="-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif" font-size="76" font-weight="500" letter-spacing="-2" fill="#F0F3F6">keenan<tspan fill="#2FA694">-</tspan><tspan fill="#8B949E">inc</tspan></text>
+<text x="112" y="382" font-family="ui-monospace,SFMono-Regular,&#39;SF Mono&#39;,Menlo,Consolas,&#39;Liberation Mono&#39;,monospace" font-size="18" letter-spacing="3" fill="#8B949E">SECURITY-MINDED SOFTWARE, BUILT SMALL AND SHIPPED FINISHED</text>
+<rect x="112" y="440" width="120" height="1" fill="#30363D"></rect>
+<text x="112" y="500" font-family="ui-monospace,SFMono-Regular,&#39;SF Mono&#39;,Menlo,Consolas,&#39;Liberation Mono&#39;,monospace" font-size="14" letter-spacing="2.6" fill="#6E7681">DESKTOP · WEB · SECURITY ENGINEERING</text>
+<text x="112" y="528" font-family="ui-monospace,SFMono-Regular,&#39;SF Mono&#39;,Menlo,Consolas,&#39;Liberation Mono&#39;,monospace" font-size="14" letter-spacing="2.6" fill="#6E7681">GITHUB.COM/KEENAN-INC</text>
+</svg>
