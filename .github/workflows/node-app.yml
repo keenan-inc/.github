@@ -1,0 +1,47 @@
+# Reusable CI for Node/Electron/web projects in the keenan-inc fleet.
+# Call from a project repo with:
+#
+#   jobs:
+#     ci:
+#       uses: keenan-inc/.github/.github/workflows/node-app.yml@main
+#
+# Steps run with `--if-present`, so projects adopt gates incrementally:
+# adding a `lint`/`typecheck` script to package.json turns that gate on.
+name: node-app
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        type: string
+        default: "24"
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: npm
+      - run: npm ci
+      - run: npm run lint --if-present
+      - run: npm run typecheck --if-present
+      - run: npm test --if-present
+      - run: npm run build --if-present
+
+  secrets-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run gitleaks
+        run: |
+          curl -sSfL https://github.com/gitleaks/gitleaks/releases/download/v8.24.3/gitleaks_8.24.3_linux_x64.tar.gz \
+            | tar -xz gitleaks
+          ./gitleaks detect --source . --redact -v
