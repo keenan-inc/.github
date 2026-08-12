@@ -25,11 +25,13 @@ Small, finished tools — the kind a practitioner actually keeps open all day. E
 
 | Project | What it is | Status | Tech |
 | :--- | :--- | :--- | :--- |
-| **[Linus](https://github.com/keenan-inc/linus)** | _Markdown-native notes and tasks desktop app. <!-- TODO: one-liner -->_ | ![](https://img.shields.io/badge/status-beta-0F6E63?style=flat-square&labelColor=21262D) | `Electron` `React` `TypeScript` |
-| **[Otto](https://github.com/keenan-inc/otto)** | _<!-- TODO: one-liner -->_ | ![](https://img.shields.io/badge/status-alpha-C9A227?style=flat-square&labelColor=21262D) | `Python` |
-| **[mac-assistant](https://github.com/keenan-inc/mac-assistant)** | _<!-- TODO: one-liner -->_ | ![](https://img.shields.io/badge/status-wip-C9A227?style=flat-square&labelColor=21262D) | `Swift` `macOS` |
-| **[rust-intel-platform](https://github.com/keenan-inc/rust-intel-platform)** | _<!-- TODO: one-liner -->_ | ![](https://img.shields.io/badge/status-experimental-6E7681?style=flat-square&labelColor=21262D) | `Rust` |
+| **[Linus](https://github.com/keenan-inc/Linus)** | _Markdown-native notes and task capture desktop app._ | ![](https://img.shields.io/badge/status-beta-0F6E63?style=flat-square&labelColor=21262D) | `Electron` `React` `JavaScript` |
+| **[Otto](https://github.com/keenan-inc/Otto)** | _<!-- TODO: one-liner -->_ | ![](https://img.shields.io/badge/status-alpha-C9A227?style=flat-square&labelColor=21262D) | `Python` |
+| **[mac-assistant](https://github.com/keenan-inc/mac-assistant)** | _<!-- TODO: one-liner -->_ | ![](https://img.shields.io/badge/status-wip-C9A227?style=flat-square&labelColor=21262D) | `JavaScript` `macOS` |
 | **[keenan-ffl](https://github.com/keenan-inc/keenan-ffl)** | _<!-- TODO: one-liner -->_ | ![](https://img.shields.io/badge/status-live-0F6E63?style=flat-square&labelColor=21262D) | `Astro` `TypeScript` |
+<!-- re-add when transferred into the org:
+| **[rust-intel-platform](https://github.com/keenan-inc/rust-intel-platform)** | _one-liner_ | ![](https://img.shields.io/badge/status-experimental-6E7681?style=flat-square&labelColor=21262D) | `Rust` |
+-->
 
 ## How I work
 
